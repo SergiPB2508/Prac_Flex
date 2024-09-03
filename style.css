@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 2% 7%;
+}
+
+nav {
+  min-width: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.f {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10vh;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  width: 25vh;
+}
+
+.column * {
+  margin: 5%;
+}
+
+.Matheus {
+  text-align: center;
+}
