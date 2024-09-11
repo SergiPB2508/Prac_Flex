@@ -77,6 +77,28 @@ a {
   width: 15vh;
 }
 
+#testimonial {
+  margin-bottom: 10vh;
+}
+
+#testimonial * {
+  text-align: center;
+}
+
+.people {
+  display: flex;
+  padding-top: 5vh;
+}
+
+.people * {
+  padding: 10px;
+}
+
+.people img {
+  width: 25vh;
+  border-radius: 100%;
+}
+
 .f {
   display: flex;
   justify-content: space-around;
