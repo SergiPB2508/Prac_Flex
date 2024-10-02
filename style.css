@@ -118,3 +118,33 @@ a {
 .Matheus {
   text-align: center;
 }
+
+@media (max-width: 500px) {
+  #hero {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #content {
+    max-width: 100%;
+    padding: 5vh 0;
+  }
+
+  #hero img {
+    width: 100%;
+  }
+
+  .people {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .f {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .column * {
+    text-align: center;
+  }
+}
