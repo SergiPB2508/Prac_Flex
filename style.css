@@ -60,7 +60,7 @@ a {
 }
 
 #companies {
-  margin: 10vh;
+  margin: 10vh 0;
 }
 
 #companies * {
@@ -71,10 +71,13 @@ a {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  width: 100%;
 }
 
 .links img {
   width: 15vh;
+  max-width: 100%;
+  height: auto;
 }
 
 #testimonial {
